@@ -11,7 +11,7 @@ using PersonalFinanceApp.Data;
 namespace PersonalFinanceApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241202142944_InitialCreate")]
+    [Migration("20241202183018_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

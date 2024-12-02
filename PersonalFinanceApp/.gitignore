@@ -11,8 +11,7 @@ obj/
 .vs/PersonalFinanceApp/FileContentIndex/
 .vs/PersonalFinanceApp/v17/
 
-# Ignore Migration files (this folder can contain auto-generated migrations)
-Migrations/
+
 
 # Ignore compiled .NET files
 *.dll
