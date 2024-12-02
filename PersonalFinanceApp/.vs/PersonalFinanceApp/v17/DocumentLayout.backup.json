@@ -1,0 +1,398 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\views\\transaction\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:views\\transaction\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\service\\usersessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:service\\usersessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\views\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:views\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\views\\transaction\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:views\\transaction\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\views\\account\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:views\\account\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|c:\\users\\hp\\downloads\\personalfinanceapp (2)\\personalfinanceapp\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213F8319-10FE-4310-A4D6-D0FBF6E724F3}|PersonalFinanceApp.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:20:34.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "Controllers\\TransactionController.cs",
+              "ViewState": "AgIAABMBAAAAAAAAAAAowCsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:25:03.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "Models\\Account.cs",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Models\\Account.cs",
+              "RelativeToolTip": "Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:21:26.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Views\\Transaction\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Transaction\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Views\\Transaction\\Create.cshtml",
+              "RelativeToolTip": "Views\\Transaction\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T16:00:59.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwBYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:25:57.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReportController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "Controllers\\ReportController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowCMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:58:38.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProjectController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "Controllers\\ProjectController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwDQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T14:21:51.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Models\\Transaction.cs",
+              "RelativeToolTip": "Models\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:27:15.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "Models\\Project.cs",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Models\\Project.cs",
+              "RelativeToolTip": "Models\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:55:03.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Views\\Account\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Views\\Account\\Create.cshtml",
+              "RelativeToolTip": "Views\\Account\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T15:59:28.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T10:06:32.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:43:13.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserSessionService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Service\\UserSessionService.cs",
+              "RelativeDocumentMoniker": "Service\\UserSessionService.cs",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Service\\UserSessionService.cs",
+              "RelativeToolTip": "Service\\UserSessionService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwB0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:36:35.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T10:05:55.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T10:25:51.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAowC0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T10:10:28.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Views\\Account\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Views\\Account\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Account\\Delete.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T16:06:17.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Views\\Transaction\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Transaction\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Views\\Transaction\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Transaction\\Edit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T16:08:56.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Views\\Account\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Views\\Account\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Account\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T14:20:20.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "Views\\User\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T10:17:20.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "Views\\User\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T10:16:52.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Hp\\Downloads\\PersonalFinanceApp (2)\\PersonalFinanceApp\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T10:08:11.174Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+﻿@model PersonalFinanceApp.Models.Transaction
+
+<h2>Add Transaction</h2>
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="Date">Date</label>
+        <input type="date" class="form-control" asp-for="Date" />
+        <span asp-validation-for="Date" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Amount">Amount</label>
+        <input type="number" class="form-control" asp-for="Amount" />
+        <span asp-validation-for="Amount" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Type">Type</label>
+        <select class="form-control" asp-for="Type">
+            <option value="Debit">Debit</option>
+            <option value="Credit">Credit</option>
+            <option value="Credit Card">Credit Card</option>
+        </select>
+        <span asp-validation-for="Type" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="AccountId">Account</label>
+        <select class="form-control" asp-for="AccountId">
+            <option value="">Select Account</option>
+            @foreach (var account in ViewBag.Accounts)
+            {
+                <option value="@account.Id">@account.Name</option>
+            }
+        </select>
+        <span asp-validation-for="AccountId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="CategoryId">Category</label>
+        <select class="form-control" asp-for="CategoryId">
+            <option value="">Select Category</option>
+            @foreach (var category in ViewBag.Categories)
+            {
+                <option value="@category.Id">@category.Name</option>
+            }
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

@@ -1,0 +1,19 @@
+﻿@model PersonalFinanceApp.Models.Project
+
+<h2>Delete Project</h2>
+
+<p>Are you sure you want to delete this project?</p>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Project Name: @Model.Name</h5>
+        <p>End Date: @(Model.EndDate.HasValue ? Model.EndDate.Value.ToShortDateString() : "No End Date")</p>
+        <p>Budget: @(Model.Budget.HasValue ? Model.Budget.Value.ToString("C") : "No Budget")</p>
+    </div>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

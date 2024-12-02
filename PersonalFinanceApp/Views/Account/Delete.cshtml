@@ -1,0 +1,24 @@
+﻿@model PersonalFinanceApp.Models.Account
+
+<h2>Delete Account</h2>
+
+<p>Are you sure you want to delete this account?</p>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Account Name: @Model.Name</h5>
+        <p>Type: @Model.Type</p>
+        <p>Balance: @Model.Balance</p>
+        @if (Model.Type == "Credit Card")
+        {
+            <p>Credit Limit: @Model.CreditLimit</p>
+            <p>Outstanding Balance: @Model.OutstandingBalance</p>
+        }
+    </div>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

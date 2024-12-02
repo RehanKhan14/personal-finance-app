@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h1 class="text-center mb-4">Welcome to Personal Finance App</h1>
+
+<div class="row text-center">
+    <div class="col-md-4">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">Total Balance</h5>
+                <p class="card-text display-4">@ViewBag.TotalBalance.ToString("C")</p>
+                <a href="/Account/Index" class="btn btn-primary">Manage Accounts</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">Total Transactions</h5>
+                <p class="card-text display-4">@ViewBag.TransactionCount</p>
+                <a href="/Transaction/Index" class="btn btn-primary">View Transactions</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">Total Projects</h5>
+                <p class="card-text display-4">@ViewBag.ProjectCount</p>
+                <a href="/Project/Index" class="btn btn-primary">Manage Projects</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr class="my-5">
+
+<h2>Recent Transactions</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Account</th>
+            <th>Type</th>
+            <th>Amount</th>
+            <th>Category</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var transaction in ViewBag.RecentTransactions)
+        {
+            <tr>
+                <td>@transaction.Date.ToShortDateString()</td>
+                <td>@transaction.Account.Name</td>
+                <td>@transaction.Type</td>
+                <td>@transaction.Amount.ToString("C")</td>
+                <td>@transaction.Category?.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/Transaction/Index" class="btn btn-link">View All Transactions</a>

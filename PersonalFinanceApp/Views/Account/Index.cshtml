@@ -1,0 +1,30 @@
+﻿@model IEnumerable<PersonalFinanceApp.Models.Account>
+
+<h2>Accounts</h2>
+
+<a asp-action="Create" class="btn btn-primary mb-3">Add New Account</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Account Name</th>
+            <th>Type</th>
+            <th>Balance</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var account in Model)
+        {
+            <tr>
+                <td>@account.Name</td>
+                <td>@account.Type</td>
+                <td>@account.Balance.ToString("C")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@account.Id" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@account.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

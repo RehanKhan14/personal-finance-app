@@ -1,0 +1,36 @@
+﻿@* Views/Report/Index.cshtml *@
+@model IEnumerable<PersonalFinanceApp.Models.Transaction>
+
+<h2>Report - Index</h2>
+
+<p>Welcome to the Reports section!</p>
+
+@* Example: Display Transactions in a Table *@
+<table class="table">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Amount</th>
+            <th>Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var transaction in Model)
+            {
+                <tr>
+                    <td>@transaction.Date.ToShortDateString()</td>
+                    <td>@transaction.Amount</td>
+                    <td>@transaction.Type</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="4">No transactions available.</td>
+            </tr>
+        }
+    </tbody>
+</table>
