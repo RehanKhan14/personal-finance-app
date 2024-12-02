@@ -1,0 +1,30 @@
+# Ignore Visual Studio temporary files, folders, and files
+.vs/
+.vscode/
+.idea/
+
+# Ignore ASP.NET Core build results
+bin/
+obj/
+
+# Ignore user-specific Visual Studio files
+.vs/PersonalFinanceApp/FileContentIndex/
+.vs/PersonalFinanceApp/v17/
+
+# Ignore Migration files (this folder can contain auto-generated migrations)
+Migrations/
+
+# Ignore compiled .NET files
+*.dll
+*.exe
+*.pdb
+*.cache
+
+
+# Ignore files related to source control tools
+*.vsconfig
+
+# Ignore NuGet files
+*.nupkg
+*.snupkg
+*.nuspec

@@ -59,6 +59,13 @@ namespace PersonalFinanceApp.Controllers
 
             return View(model);
         }
+        public IActionResult Logout()
+        {
+            // Clear the session
+            HttpContext.Session.Clear();
+
+            return RedirectToAction("Login");
+        }
 
         // GET: Register
         public IActionResult Register()

@@ -89,20 +89,30 @@ namespace PersonalFinanceApp.Controllers
                 }
 
                 // Update account balance
-                if (transaction.Type == "Debit")
+                if (transaction.Type == "Debit" && account.Type != "Credit Card")
                 {
                     account.Balance -= transaction.Amount;
                 }
-                else if (transaction.Type == "Credit")
+                else if (transaction.Type == "Credit" && account.Type != "Credit Card")
                 {
                     account.Balance += transaction.Amount;
                
                 }
-                else if (transaction.Type == "Credit Card")
+                else if (transaction.Type == "Credit Card" && account.Type == "Credit Card")
                 {
                     account.Balance -= transaction.Amount;
                     account.OutstandingBalance += transaction.Amount;
-
+                }
+                else if(account.Type=="Credit Card")
+                {
+                    ModelState.AddModelError("Account Type Mismatch", "Credit Card is the only valid transcation type for the chosen account.");
+                    System.Diagnostics.Debug.WriteLine("Error Chech ------------------>", account.Type);
+                    return View();
+                }
+                else
+                {
+                    ModelState.AddModelError("Account Type Mismatch", "Debit or Credit are the only valid transcation type for the chosen account.");
+                    return View(transaction);
                 }
 
                 // Save changes synchronously
@@ -113,7 +123,8 @@ namespace PersonalFinanceApp.Controllers
                 }
                 if (account.UserId != userId)
                 {
-
+                    ModelState.AddModelError("User Account Mismatch", "Please login with the correct account.");
+                    return RedirectToAction("Logout", "User");
                 }
                 transaction.UserId = userId;
                 _context.Accounts.Update(account);
@@ -180,8 +191,8 @@ namespace PersonalFinanceApp.Controllers
                 }
                 else if (transaction.Type == "Credit Card" && account.Type== "Credit Card")
                 {
-                    account.Balance -= transaction.Amount;
-                    account.OutstandingBalance += transaction.Amount;
+                    account.Balance += transaction.Amount;
+                    account.OutstandingBalance -= transaction.Amount;
 
                 }
 
@@ -193,14 +204,33 @@ namespace PersonalFinanceApp.Controllers
                     return View(transaction);
                 }
 
-                if (transaction.Type == "Debit")
+                if (transaction.Type == "Debit" && account.Type != "Credit Card")
                 {
                     account.Balance -= transaction.Amount;
                 }
-                else if (transaction.Type == "Credit")
+                else if (transaction.Type == "Credit" && account.Type != "Credit Card")
                 {
                     account.Balance += transaction.Amount;
                 }
+                else if(transaction.Type =="Credit Card" && account.Type == "Credit Card")
+                {
+                    account.Balance -= transaction.Amount;
+                    account.OutstandingBalance += transaction.Amount;
+                }
+                else
+                {
+
+                }
+                int userId = _userSessionService.GetLoggedInUserId();
+                if (userId == -1)
+                {
+                    return RedirectToAction("Login", "User");
+                }
+                if (account.UserId != userId)
+                {
+
+                }
+                transaction.UserId = userId;
 
                 _context.Accounts.Update(account);
                 _context.Transactions.Update(transaction);
