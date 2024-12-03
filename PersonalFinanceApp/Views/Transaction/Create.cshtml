@@ -32,17 +32,70 @@
         </select>
         <span asp-validation-for="AccountId" class="text-danger"></span>
     </div>
+
+    <!-- New Dropdown for Category or Project -->
     <div class="form-group">
-        <label for="CategoryId">Category</label>
-        <select class="form-control" asp-for="CategoryId">
+        <label for="SelectionType">Select Type</label>
+        <select class="form-control" id="SelectionType">
+            <option value="Category">Category</option>
+            <option value="Project">Project</option>
+        </select>
+    </div>
+
+    <!-- Category or Project Dropdown -->
+    <div class="form-group" id="DynamicDropdownContainer">
+        <label for="DynamicDropdown">Category</label>
+        <select class="form-control" asp-for="CategoryId" id="DynamicDropdown">
             <option value="">Select Category</option>
-            @foreach (var category in ViewBag.Categories)
-            {
-                <option value="@category.Id">@category.Name</option>
-            }
         </select>
         <span asp-validation-for="CategoryId" class="text-danger"></span>
     </div>
+
     <button type="submit" class="btn btn-success">Submit</button>
     <a asp-action="Index" class="btn btn-secondary">Cancel</a>
 </form>
+
+<!-- Add jQuery to handle dynamic dropdown population -->
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Pass the projects and categories to JavaScript
+            var projects = @Html.Raw(Json.Serialize(ViewBag.Projects));
+            var categories = @Html.Raw(Json.Serialize(ViewBag.Categories));
+
+            // Initial population of the dropdown based on the default selection
+            updateDynamicDropdown();
+
+            // Change event listener for the "Select Type" dropdown
+            $('#SelectionType').change(function () {
+                updateDynamicDropdown();
+            });
+
+            // Function to update the dynamic dropdown
+            function updateDynamicDropdown() {
+                var selectedValue = $('#SelectionType').val();
+                var dynamicDropdown = $('#DynamicDropdown');
+
+                // Empty the dynamic dropdown first
+                dynamicDropdown.empty();
+
+                // Check if the selected value is 'Project' or 'Category'
+                if (selectedValue == 'Project') {
+                    // If "Project" is selected, populate the dropdown with projects
+                    dynamicDropdown.append('<option value="">Select Project</option>');
+                    projects.forEach(function (project) {
+                        dynamicDropdown.append('<option value="' + project.id + '">' + project.name + '</option>');
+                    });
+                } else {
+                    console.log(categories[0]);
+                    // If "Category" is selected, populate the dropdown with categories
+                    dynamicDropdown.append('<option value="">Select Category</option>');
+                    categories.forEach(function (category) {
+                        dynamicDropdown.append('<option value="' + category.id + '">' + category.name + '</option>');
+                    });
+                }
+            }
+        });
+    </script>
+}

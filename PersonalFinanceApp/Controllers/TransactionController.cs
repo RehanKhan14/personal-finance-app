@@ -40,7 +40,7 @@ namespace PersonalFinanceApp.Controllers
                 return View(transactions);
             }
         }
-
+        
         // GET: Transactions/Create
         public IActionResult Create()
         {
@@ -53,7 +53,8 @@ namespace PersonalFinanceApp.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(PersonalFinanceApp.Models.Transaction transaction)
         {
-           
+
+
             if (!ModelState.IsValid)
             {
                 PopulateDropdowns();
@@ -326,6 +327,7 @@ namespace PersonalFinanceApp.Controllers
             ViewBag.Projects = _context.Projects
                 .Where(p => p.UserId == userId)  // Filter projects by the logged-in userId
                 .ToList();
+            
         }
 
     }
