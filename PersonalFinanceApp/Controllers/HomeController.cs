@@ -71,6 +71,7 @@ namespace PersonalFinanceApp.Controllers
                 .Take(5)
                 .Include(t => t.Account)
                 .Include(t => t.Category)
+                .Include(t => t.Project)
                 .ToList();
 
             // Step 3: Assign the filtered data to ViewBag

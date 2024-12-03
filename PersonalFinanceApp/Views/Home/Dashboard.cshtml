@@ -44,7 +44,7 @@
             <th>Account</th>
             <th>Type</th>
             <th>Amount</th>
-            <th>Category</th>
+            <th>Category/Project</th>
         </tr>
     </thead>
     <tbody>
@@ -55,7 +55,15 @@
                 <td>@transaction.Account.Name</td>
                 <td>@transaction.Type</td>
                 <td>@transaction.Amount.ToString("C")</td>
-                <td>@transaction.Category?.Name</td>
+                @if (transaction.CategoryId == null)
+                {
+                    <td>@transaction.Project?.Name</td>
+                }
+                else
+                {
+
+                    <td>@transaction.Category?.Name</td>
+                }
             </tr>
         }
     </tbody>

@@ -85,7 +85,7 @@
                     // If "Project" is selected, populate the dropdown with projects
                     dynamicDropdown.append('<option value="">Select Project</option>');
                     projects.forEach(function (project) {
-                        dynamicDropdown.append('<option value="' + project.id + '">' + project.name + '</option>');
+                        dynamicDropdown.append('<option value="-' + project.id + '">' + project.name + '</option>');
                     });
                 } else {
                     console.log(categories[0]);

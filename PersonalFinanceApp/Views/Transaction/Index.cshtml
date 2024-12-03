@@ -9,7 +9,7 @@
             <th>Amount</th>
             <th>Type</th>
             <th>Account</th>
-            <th>Category</th>
+            <th>Category/Project</th>
             <th>Actions</th>
         </tr>
     </thead>
@@ -21,7 +21,15 @@
                 <td>@transaction.Amount.ToString("C")</td>
                 <td>@transaction.Type</td>
                 <td>@transaction.Account?.Name</td>
-                <td>@transaction.Category?.Name</td>
+                @if(transaction.CategoryId==null)
+                {
+                    <td>@transaction.Project?.Name</td>
+                }
+                else
+                {
+                    
+                    <td>@transaction.Category?.Name</td>
+                }
                 <td>
                     <a asp-action="Edit" asp-route-id="@transaction.Id" class="btn btn-warning btn-sm">Edit</a>
                     <a asp-action="Delete" asp-route-id="@transaction.Id" class="btn btn-danger btn-sm">Delete</a>

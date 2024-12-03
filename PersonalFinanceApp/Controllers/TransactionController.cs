@@ -33,6 +33,7 @@ namespace PersonalFinanceApp.Controllers
                 var transactions = _context.Transactions
                     .Include(t => t.Account)
                     .Include(t => t.Category)
+                    .Include(t=> t.Project)
                     .Where(t => t.UserId == userId)  // Filter by UserId (assuming Account has a UserId field)
                     .ToList();
 
@@ -68,6 +69,17 @@ namespace PersonalFinanceApp.Controllers
                 ModelState.AddModelError("AccountId", "The selected account does not exist.");
                 PopulateDropdowns();
                 return View(transaction);
+            }
+
+            System.Diagnostics.Debug.WriteLine("---------------------->", transaction.CategoryId);
+            if(transaction.CategoryId < 0 )
+            {
+                transaction.ProjectId = transaction.CategoryId * -1;
+                transaction.CategoryId = null;
+            }
+            else
+            {
+                transaction.ProjectId = null;
             }
 
             try
@@ -114,6 +126,33 @@ namespace PersonalFinanceApp.Controllers
                 {
                     ModelState.AddModelError("Account Type Mismatch", "Debit or Credit are the only valid transcation type for the chosen account.");
                     return View(transaction);
+                }
+                if(transaction.ProjectId!=null)
+                {
+                    var project = _context.Projects.FirstOrDefault(p => p.Id == transaction.ProjectId);
+                    if (project != null && transaction.Type!="Credit")
+                    {
+                        // Step 3: Update the budget (or perform any other logic you need)
+         
+                        project.Budget -= transaction.Amount; // For example, add the transaction amount to the project's budget
+
+                        // Step 4: Save the updated project back to the database
+                        //_context.SaveChanges();
+
+                        // You can also use ModelState, ViewBag, or TempData to provide feedback if necessary
+                        ViewBag.Message = "Project budget updated successfully!";
+                    }
+                    else if (project != null && transaction.Type=="Credit")
+                    {
+                        project.Budget += transaction.Amount;
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("Project", "Invalid project.");
+                        PopulateDropdowns();
+                        return View(transaction);
+                    }
+                    _context.Update(project);
                 }
 
                 // Save changes synchronously
